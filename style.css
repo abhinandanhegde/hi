@@ -1,0 +1,39 @@
+.groceries {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.grocery-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+.grocery-item img {
+  max-width: 100%;
+  height: auto;
+}
+.grocery-item h3 {
+  margin: 10px 0;
+}
+.grocery-item p {
+  margin: 5px 0;
+}
+.grocery-item button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.grocery-item button:hover {
+  background-color: #218838;
+}
+.cart {
+  margin-top: 20px;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
